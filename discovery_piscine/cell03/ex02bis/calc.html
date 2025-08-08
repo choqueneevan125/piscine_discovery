@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculatrice basique</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="calc.js" defer></script>
+</head>
+<body>
+    <h1>Calculatrice Basique</h1>
+    <input type="text" id="gauche" placeholder="Membre gauche">
+    <select id="operateur">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+        <option value="%">%</option>
+    </select>
+    <input type="text" id="droite" placeholder="Membre droit">
+    <input type="submit" value="Try me!" onclick="calculer()">
+</body>
+</html>
