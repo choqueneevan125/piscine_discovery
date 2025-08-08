@@ -1,0 +1,55 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+}
+
+.parallax {
+    position: relative;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-1 {
+    background-image: url('https://cdn2.unrealengine.com/fortnite-battle-royale-chapter-2-remix-social-1920x1080-d13648f5d4e3.jpg');
+}
+
+.parallax-2 {
+    background-image: url('https://cdn.sortiraparis.com/images/80/66131/1103306-valorant-le-jeu-video-signe-riot-games-est-disponible.jpg');
+}
+
+.parallax-3 {
+    background-image: url('https://xboxwire.thesourcemediaassets.com/sites/5/1.-Cyberpunk2077_Ultimate_Edition_PC_Time_To_Get_To_Work-b37ba676c051362c6430.jpg');
+}
+
+.parallax-4 {
+    background-image: url('https://42lehavre.fr/wp-content/uploads/2023/02/Sans-titre-13-1024x683.png');
+}
+
+.message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.black-block {
+    background-color: black;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    font-size: 1.5em;
+    box-shadow: 0px 4px 6px rgba(0, 0, blue0, 0.1);
+}
+
+h2 {
+    margin: 0;
+}

@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.carte-container {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    background-color: white;
+    border-collapse: collapse;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: none;
+}
+
+.photo-profil {
+    width: 100%;
+    height: auto;
+}
+
+.login {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.description {
+    color: #666;
+    font-size: 14px;
+}
+
+.lieux {
+    font-size: 14px;
+    color: black;
+}
+
+.reseaux {
+    margin: 10px 0;
+}
+
+.reseaux img {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.btn-contact {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
