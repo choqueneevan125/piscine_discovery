@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Gestionnaire de Tâches</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        #ft_list {
+            border: 1px solid #ccc;
+            padding: 10px;
+            width: 300px;
+            min-height: 100px;
+        }
+        #ft_list div {
+            background-color: #f4f4f4;
+            margin: 5px 0;
+            padding: 8px;
+            cursor: pointer;
+        }
+        #ft_list div:hover {
+            background-color: #e0e0e0;
+        }
+        button {
+            padding: 8px 15px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <button id="new_btn">New</button>
+    <div id="ft_list"></div>
+
+    <script src="todo.js"></script>
+</body>
+</html>
